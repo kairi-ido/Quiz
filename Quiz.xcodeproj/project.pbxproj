@@ -15,6 +15,11 @@
 		4158AD3D2512807400A7CAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4158AD3B2512807400A7CAAC /* LaunchScreen.storyboard */; };
 		4158AD482512807500A7CAAC /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158AD472512807500A7CAAC /* QuizTests.swift */; };
 		4158AD532512807500A7CAAC /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158AD522512807500A7CAAC /* QuizUITests.swift */; };
+		4158AD612512812100A7CAAC /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158AD602512812100A7CAAC /* QuizViewController.swift */; };
+		4158AD632512814200A7CAAC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158AD622512814200A7CAAC /* ResultViewController.swift */; };
+		4158AD652512825800A7CAAC /* ibui.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4158AD642512825800A7CAAC /* ibui.jpg */; };
+		4158AD672512845B00A7CAAC /* myu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4158AD662512845B00A7CAAC /* myu.jpg */; };
+		4158AD692512856B00A7CAAC /* hakuryu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4158AD682512856B00A7CAAC /* hakuryu.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		4158AD4E2512807500A7CAAC /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4158AD522512807500A7CAAC /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		4158AD542512807500A7CAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4158AD602512812100A7CAAC /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		4158AD622512814200A7CAAC /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		4158AD642512825800A7CAAC /* ibui.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ibui.jpg; sourceTree = "<group>"; };
+		4158AD662512845B00A7CAAC /* myu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myu.jpg; sourceTree = "<group>"; };
+		4158AD682512856B00A7CAAC /* hakuryu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hakuryu.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,14 @@
 		4158AD2F2512807100A7CAAC /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				4158AD682512856B00A7CAAC /* hakuryu.jpg */,
+				4158AD662512845B00A7CAAC /* myu.jpg */,
+				4158AD642512825800A7CAAC /* ibui.jpg */,
 				4158AD302512807100A7CAAC /* AppDelegate.swift */,
 				4158AD322512807100A7CAAC /* SceneDelegate.swift */,
 				4158AD342512807100A7CAAC /* ViewController.swift */,
+				4158AD602512812100A7CAAC /* QuizViewController.swift */,
+				4158AD622512814200A7CAAC /* ResultViewController.swift */,
 				4158AD362512807100A7CAAC /* Main.storyboard */,
 				4158AD392512807400A7CAAC /* Assets.xcassets */,
 				4158AD3B2512807400A7CAAC /* LaunchScreen.storyboard */,
@@ -232,6 +247,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4158AD652512825800A7CAAC /* ibui.jpg in Resources */,
+				4158AD692512856B00A7CAAC /* hakuryu.jpg in Resources */,
+				4158AD672512845B00A7CAAC /* myu.jpg in Resources */,
 				4158AD3D2512807400A7CAAC /* LaunchScreen.storyboard in Resources */,
 				4158AD3A2512807400A7CAAC /* Assets.xcassets in Resources */,
 				4158AD382512807100A7CAAC /* Main.storyboard in Resources */,
@@ -259,9 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4158AD632512814200A7CAAC /* ResultViewController.swift in Sources */,
 				4158AD352512807100A7CAAC /* ViewController.swift in Sources */,
 				4158AD312512807100A7CAAC /* AppDelegate.swift in Sources */,
 				4158AD332512807100A7CAAC /* SceneDelegate.swift in Sources */,
+				4158AD612512812100A7CAAC /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PN9A6G6V4;
 				INFOPLIST_FILE = Quiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PN9A6G6V4;
 				INFOPLIST_FILE = Quiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
